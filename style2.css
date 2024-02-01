@@ -1,0 +1,589 @@
+* {
+    padding :0;
+    margin : 0;
+    font-family: sans-serif;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+.medsos {
+    padding:5px 0;
+    background-color:#709FB0; 
+}
+.medsos ul li {
+    display: inline-block;
+    color: #fff;
+    margin-right: 10px;
+    float: right;
+}
+.container {
+    width:80%;
+    margin:0 auto;
+}
+.container .back{
+    display: inline-block;
+    color: #fff;
+    margin-right: 10px;
+    float: left;
+}
+.container:after{
+    content:'';
+    display: block;
+    clear: both;
+}
+header h1 {
+    float: left;
+    padding:15px 0px;
+    color:#426977;
+}
+header ul {
+    float:right;
+}
+header ul li{
+    display: inline-block;
+}
+header ul li a {
+    padding:25px 20px;
+    display: inline-block;
+}
+header ul li a:hover {
+    background-color: #709FB0;
+    color: #fff;
+    transition: .4s
+}
+.active {
+    background-color: #709FB0;
+    color: #fff;
+}
+.banner {
+    height: 60vh;
+    background-image: url('img2/banner.jpg');
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner:after {
+    content:'';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(112, 159, 176, .6);
+}
+.banner h2 {
+    color: #fff;
+    z-index: 1;
+    padding: 20px 25px;
+    border: 3px solid #fff;
+}
+section {
+    padding: 50px 0;
+}
+section h3 {
+    text-align: center;
+    padding: 20px 0;
+    color:#426977;
+    margin-bottom: 25px;
+}
+.about,
+.service {
+    padding-bottom: 100px;
+}
+.about p {
+    color: #6D7973;
+    word-spacing: 2px;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+.service {
+    background-color: #f9f9f9;
+}
+.box {
+    color: #709FB0;
+}
+.box:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.box .col-4{
+    width: 25%;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    float: left;
+}
+.icon {
+    width: 70px;
+    height: 70px;
+    border: 1px solid;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 70px;
+    font-size:20px;
+    margin: 0 auto;
+}
+.box .col-4 h4{
+    margin: 20px 0;
+}
+footer {
+    padding: 30px 0;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+.bg-loader {
+    background-color: #eee;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.bg-loader .loader {
+    width: 100px;
+    height: 100px;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    border-top-color: #6D7973;
+    border-right-color: #6D7973;
+    border-bottom-color: #6D7973;
+    animation: puterin .8s linear infinite;
+}
+.label {
+    background-color: #709FB0;
+    color: #fff;
+}
+@keyframes puterin {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.about .container .onichan {
+    content:'';
+    border-radius: 50%;
+    border: 1px solid;
+    margin-left: 389px;
+    margin-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.container h5 {
+    text-align: center;
+    padding: 20px 0;
+    color:#426977;
+    margin-bottom: 25px;
+}
+.about .container img{
+    align-items: center;
+}
+/* AbouT */
+.banner3 {
+    height: 60vh;
+    background-image: url('img2/lumine.gif');
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner3:after {
+    content:'';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(53, 53, 53, 0.500);
+}
+.banner3 h2 {
+    color: #fff;
+    z-index: 1;
+    padding: 20px 25px;
+    border: 3px solid #fff;
+}
+/* Tutorial */
+.banner1 {
+    height: 60vh;
+    background-image: url('img2/Banner2.jpg');
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner1:after {
+    content:'';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(100, 105, 107, 0.13);
+}
+.banner1 h2 {
+    color: #fff;
+    z-index: 1;
+    padding: 20px 25px;
+    border: 3px solid #fff;
+}
+.medsos1 {
+    padding:5px 0;
+    background-color:#333; 
+}
+.medsos1 ul li {
+    display: inline-block;
+    color: #fff;
+    margin-right: 10px;
+    float: right;
+}
+.header1 h1 {
+    float: left;
+    padding:15px 0px;
+    color:#333;
+}
+.header1 ul {
+    float:right;
+}
+.header1 ul li{
+    display: inline-block;
+}
+.header1 ul li a {
+    padding:25px 20px;
+    display: inline-block;
+}
+.header1 ul li a:hover {
+    background-color: #333;
+    color: #fff;
+    transition: .4s
+}
+.active1 {
+    background-color: #333;
+    color: #fff;
+}
+.service1 {
+    background-color: #333;
+}
+.box1 {
+    color: #aaaaaa;
+}
+.box1:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.box1 .col-41{
+    width: 25%;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    float: left;
+    transition: .4s;
+}
+.box1 .col-41:hover{
+    transform: translatey(5px);
+}
+.icon1 {
+    width: 70px;
+    height: 70px;
+    border: 1px solid;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 70px;
+    font-size:20px;
+    margin: 0 auto;
+}
+.box1 .col-41 h4{
+    margin: 20px 0;
+}
+.h31 {
+    color: #aaaaaa;
+}
+
+/*pilihan*/
+
+.title h3 {
+    color: #fff;
+    font-size: 45px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+.project {
+    background-color: #191919;
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.thebox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+
+}
+
+.file {
+    height: 365px;
+    width: 355px;
+    padding: 20px 35px;
+    background: #101010;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    transition: .4s;
+}
+
+.file:hover {
+    transform: scale(0.9);
+}
+
+.file i {
+    color: #cd412f;
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 25px;
+    border: #000;
+}
+
+.file h5 {
+    color: #fff;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+
+.new p {
+    color: rgb(153, 39, 39);
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+
+.file .button {
+    background-color: rgb(153, 39, 39);
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: .4s;
+}
+
+.file .button:hover {
+    background-color: transparent;
+    border: 2px solid rgb(141, 34, 34);
+    cursor: pointer;
+}
+
+/*Help*/
+.banner2 {
+    height: 60vh;
+    background-image: url('img2/Banner3.gif');
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner2:after {
+    content:'';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(53, 53, 53, 0.500);
+}
+.banner2 h2 {
+    color: #fff;
+    z-index: 1;
+    padding: 20px 25px;
+    border: 3px solid #fff;
+}
+.medsos1 {
+    padding:5px 0;
+    background-color:#333; 
+}
+.medsos1 ul li {
+    display: inline-block;
+    color: #fff;
+    margin-right: 10px;
+    float: right;
+}
+.header1 h1 {
+    float: left;
+    padding:15px 0px;
+    color:#333;
+}
+.header1 ul {
+    float:right;
+}
+.header1 ul li{
+    display: inline-block;
+}
+.header1 ul li a {
+    padding:25px 20px;
+    display: inline-block;
+}
+.header1 ul li a:hover {
+    background-color: #333;
+    color: #fff;
+    transition: .4s
+}
+.active1 {
+    background-color: #333;
+    color: #fff;
+}
+.service1 {
+    background-color: #333;
+}
+.box1 {
+    color: #aaaaaa;
+}
+.box1:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.box1 .col-41{
+    width: 25%;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    float: left;
+    transition: .4s;
+}
+.box1 .col-41:hover{
+    transform: translatey(5px);
+}
+.icon1 {
+    width: 70px;
+    height: 70px;
+    border: 1px solid;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 70px;
+    font-size:20px;
+    margin: 0 auto;
+}
+.box1 .col-41 h4{
+    margin: 20px 0;
+}
+.h31 {
+    color: #aaaaaa;
+}
+
+.contact-me {
+    width: 100%;
+    height: 290px;
+    background-color: #191919;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-me p {
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.contact-me .button-two {
+    background-color: #709FB0;
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: .4s;
+}
+
+.contact-me .button-two:hover {
+    background-color: transparent;
+    border: 2px solid #709FB0;
+    cursor: pointer;
+}
+
+small {
+    padding-top: 20px;
+    color: #858585;
+}
+
+.footer {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-color: #101010;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer p:nth-child(1) {
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.footer p:nth-child(2) {
+    color: #fff;
+    font-size: 17px;
+    width: 500px;
+    text-align: center;
+    line-height: 26px;
+}
+
+.linksosial {
+    display: flex;
+}
+
+.linksosial a {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #709FB0;
+    border-radius: 50%;
+    margin: 22px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.linksosial a:hover {
+    transform: scale(1.3);
+    transition: .3s;
+}
+
+.end {
+    position: absolute;
+    color: #709FB0;
+    bottom: 35px;
+    font-size: 14px;
+}
